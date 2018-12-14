@@ -1,0 +1,161 @@
+#wrapper{
+	width:80%;
+	margin: auto;
+	border: 1px solid black;
+	background-color: #032741;
+	min-width: 900px;
+}
+
+#formWrapper{
+	width:80%;
+	margin: auto;
+	border: 1px solid black;
+	background-color: #29516D;
+	min-width: 900px;
+}
+
+.imgThumbs{
+	float:right;
+	margin-top: 2.5em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+body{
+	background-color: #555555;
+}
+
+header{
+	height: 100px;
+	background-color: lightblue;
+	background-image: url(Images/frHeader.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin-top: 0;
+	border-bottom: 1px solid black;
+}
+
+header h1{
+	color: #111111;
+	font-family: Papyrus, Garamond, serif;
+	font-size: 3.6em;
+	font-style: oblique;
+	margin-top: 0;
+}
+
+nav ul{
+	background-color: #191B5F;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+nav li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #090B47;
+}
+
+main{
+	background-color: #000000;
+}
+
+main h2{
+	font-family: Garamond, "Times New Roman", serif;
+	font-size: 2em;
+	color: #000000;
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+	margin-bottom: 0;
+	text-decoration: underline;
+}
+
+main p{
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: #999999;
+	font-size: 1.15em;
+	padding: 0.2em;
+}
+
+main a{
+	color: #000000;
+}
+
+table{
+	border: none;
+	border-spacing: 0;
+	text-align: center;
+	background-color: #000000;
+	color: black;
+	margin: auto;
+}
+
+th{
+	background-color: #AAAAAA;
+	color: black;
+	padding: 0.3em;
+}
+
+td{
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+
+tr:nth-of-type(even){
+	background-color: #CCCCCC;
+}
+
+#tabCap{
+	background-color: #EEEEEE;
+	font-family: Arial, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.row{
+	background-color: lightblue;
+	font-weight: bold;
+}
+
+#FRight{
+	float: right;
+}
+
+footer{
+	/*background-color: #29516D;*/
+	margin: 0;
+}
+
+footer p{
+	color: #CCCCCC;
+	font-size: 0.85em;
+}
+
+footer a{
+	text-decoration: none;
+	color: #CCCCCC;
+}
+
+form{
+	margin: 3em;
+	border: 1px solid black;
+	background-color: #EEEEEE;
+	color: black;
+	padding: 1em;
+}
+
+#photosMain{
+	margin-right: 0;
+}
